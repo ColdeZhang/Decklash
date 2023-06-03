@@ -38,7 +38,7 @@ build-front: ## Build frontend
 
 build-back: ## Build backend
 	@echo "+ $@"
-	@make -C ./backend
+	# @make -C ./backend
 
 build: ## Build everything
 	@$(MAKE) build-front build-back
