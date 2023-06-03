@@ -1,10 +1,10 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
+  "name": "Decklash",
+  "author": "Colde Zhang",
   "flags": ["debug", "_root"],
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
-    "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
+    "tags": ["Clask", "ShadowSocks", "VPN"],
+    "description": "Clash simple UI implementation for Steam Deck",
+    "image": ""
   }
 }

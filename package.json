@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
+  "name": "decklash",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "Clash simple UI implementation for Steam Deck",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
@@ -9,21 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
+    "url": "git+https://github.com/ColdeZhang/Decklash.git"
   },
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
+    "Clask",
+    "ShadowSocks",
+    "VPN",
     "steam-deck",
     "deck"
   ],
-  "author": "Jonas Dellinger <jonas@dellinger.dev>",
-  "license": "BSD-3-Clause",
+  "author": "Colde Zhang <ColdeZhang@foxmail.com>",
+  "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/ColdeZhang/Decklash"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/ColdeZhang/Decklash#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-json": "^4.1.0",
@@ -39,7 +41,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "decky-frontend-lib": "^3.20.7",
+    "decky-frontend-lib": "^3.21.1",
     "react-icons": "^4.4.0"
   },
   "pnpm": {
